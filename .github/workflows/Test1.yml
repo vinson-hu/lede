@@ -7,14 +7,14 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: 树莓派4编译测试1
 
 on:
-  #push:
-  #  branches: 
-  #    - master
-  # schedule:
-  #   - cron: 0 20 * * *
+  push:
+    branches: 
+      - master
+  schedule:
+    - cron: 0 20 * * *
   # release:
   #   types: [published]
 
